@@ -17,7 +17,7 @@
     },
     {
         "id": "103",
-        "name": "",
+        "name": "Swiming",
         "time": 78,
         "description": "Swimming is a low-impact, high-cardio workout that burns calories and tones muscles; incorporate these moves to kick your workout up a notch.",
         "img": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGV4ZXJjaXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -67,7 +67,7 @@
         "id": "109",
         "name": "Playing Basketball",
         "time": 98,
-        "description": "Playing basketball helps to improve motor coordination, flexibility, and endurance. It also encourages speed, agility, and strength. These skills are shown to have a positive effect on promoting a healthy body weight and encouraging more physical activity, which can enhance cardiorespiratory fitness and self-esteem.",
+        "description": "Playing basketball helps to improve motor coordination, flexibility, and endurance. It also encourages speed, agility, and strength. These skills are shown to have a positive effect on promoting a healthy body weight and encouraging more physical activity.",
         "img": "https://images.unsplash.com/photo-1573384666979-2b1e160d2d08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQxfHxleGVyY2lzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "quantity": 0
     }

@@ -20,8 +20,10 @@
     text-decoration: none;
     color: white;
     margin-left: 18px;
+    font-weight: 500;
 }
 
 .nav-menu a:hover {
     color: crimson;
+    font-weight: 700;
 }
