@@ -40,7 +40,7 @@
 }
 
 .btn-completed:hover {
-    padding: 15px;
+    padding: 12px;
     background-color: rgb(5, 143, 95);
     cursor: pointer;
 }

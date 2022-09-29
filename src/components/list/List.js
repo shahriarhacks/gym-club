@@ -1,4 +1,6 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
 import BreakTime from '../breakTime/BreakTime';
 import './List.css'
@@ -12,6 +14,7 @@ const List = ({ list }) => {
     const breakHandel = (breakTime) => {
         setBTime(breakTime)
     }
+    const completed = () => toast.success("WoW you done the work", { position: 'top-center' })
 
     return (
         <div className='cart-list'>
@@ -51,7 +54,7 @@ const List = ({ list }) => {
                     <h4>Break Time</h4>
                     <h4>{bTime + 0} seconds</h4>
                 </div>
-                <button className="btn-completed">Activity Completed</button>
+                <button onClick={completed} className="btn-completed">Activity Completed</button>
             </div>
         </div>
     );

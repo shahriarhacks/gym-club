@@ -16,3 +16,13 @@
     box-shadow: 2px 3px 7px;
     text-align: center;
 }
+
+@media only screen and (max-width: 1080px) {
+    .main-section {
+        grid-template-columns: 1fr;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
