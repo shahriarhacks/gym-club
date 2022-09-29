@@ -23,12 +23,12 @@ const List = ({ list }) => {
     if (getBreak) {
         breakTimeC = JSON.parse(getBreak);
     }
-    const completed = () => toast.success("WoW you done the work", { position: 'top-center' })
+    const completed = () => toast("Hurray! You completed the season")
 
     return (
         <div className='cart-list'>
             <div className="auth-info">
-                <h4>Nushrat Shahriar Jahan</h4>
+                <h4>Shahriar Nushrat Jahan</h4>
                 <p><small>From: Chandpur, Bangladesh</small></p>
             </div>
             <div className="identify">
