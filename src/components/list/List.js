@@ -55,6 +55,8 @@ const List = ({ list }) => {
                     <h4>{bTime + 0} seconds</h4>
                 </div>
                 <button onClick={completed} className="btn-completed">Activity Completed</button>
+                <ToastContainer />
+
             </div>
         </div>
     );
