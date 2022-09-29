@@ -1,5 +1,7 @@
-.flexbox {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.break-btn button:hover {
+    border: none;
+    background-color: rgb(72, 62, 255);
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 75%;
 }

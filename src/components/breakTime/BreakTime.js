@@ -3,7 +3,7 @@ import './BreakTime.css'
 
 const BreakTime = ({ breakTime, breakHandel }) => {
     return (
-        <div>
+        <div className='break-btn'>
             <button onClick={() => breakHandel(breakTime)}>
                 {breakTime}s
             </button>

@@ -7,12 +7,21 @@ import './List.css'
 const List = ({ list }) => {
     const [bTime, setBTime] = useState([]);
     let time = 0;
+    let quantity = 0;
     for (const singleList of list) {
-        time = time + singleList.time;
+        time = time + singleList.time * singleList.quantity;
+        quantity = quantity + singleList.quantity;
     }
     const breakTimes = [10, 20, 30, 40]
     const breakHandel = (breakTime) => {
+        localStorage.setItem("breakTime", JSON.stringify(breakTime))
+
         setBTime(breakTime)
+    }
+    let breakTimeC = '';
+    const getBreak = localStorage.getItem('breakTime')
+    if (getBreak) {
+        breakTimeC = JSON.parse(getBreak);
     }
     const completed = () => toast.success("WoW you done the work", { position: 'top-center' })
 
@@ -52,7 +61,7 @@ const List = ({ list }) => {
                 </div>
                 <div className='flex'>
                     <h4>Break Time</h4>
-                    <h4>{bTime + 0} seconds</h4>
+                    <h4>{breakTimeC + 0} seconds</h4>
                 </div>
                 <button onClick={completed} className="btn-completed">Activity Completed</button>
                 <ToastContainer />
