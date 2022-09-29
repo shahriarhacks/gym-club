@@ -56,7 +56,6 @@ const List = ({ list }) => {
                 </div>
                 <button onClick={completed} className="btn-completed">Activity Completed</button>
                 <ToastContainer />
-
             </div>
         </div>
     );
