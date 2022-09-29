@@ -31,24 +31,10 @@ const getListCart = () => {
     return listCart;
 }
 
-const removeFromDb = id => {
-    const storedCart = localStorage.getItem('list-cart');
-    if (storedCart) {
-        const listCart = JSON.parse(storedCart);
-        if (id in listCart) {
-            delete listCart[id];
-            localStorage.setItem('list-cart', JSON.stringify(listCart));
-        }
-    }
-}
 
-const deleteListCart = () => {
-    localStorage.removeItem('list-cart');
-}
+
 
 export {
     addToDb,
-    getListCart,
-    removeFromDb,
-    deleteListCart
+    getListCart
 }
