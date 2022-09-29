@@ -9,7 +9,7 @@ const Main = () => {
     const [items, setItems] = useState([]);
     const [list, setList] = useState([]);
     useEffect(() => {
-        fetch('fakeData.json')
+        fetch('items.json')
             .then(res => res.json())
             .then(data => setItems(data))
     }, [])

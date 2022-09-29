@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "name": "Hiking Exercise",
+        "time": 21,
+        "description": "A Home Workout to Stay in Hiking Shape . Reverse lunge off step with knee liftSpinal balance with knee to elbow touch. Muscles: glutes, upper back, lower back, abs, shoulders,Kneeling half stand-ups, Downward facing dog to high plank, Single leg squat off step, Side plank with rotation, Curtsey lunge with knee lift.",
+        "img": "https://stylesatlife.com/wp-content/uploads/2019/10/Best-Brisk-Walking-Benefits-To-Promote-Good-Health.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "2",
+        "name": "Yard work exercise",
+        "time": 47,
+        "description": "Doing yard work is a great cardiovascular exercise. Your activity while raking leaves, sweeping the patio, mowing the lawn, and pulling weeds is a great way to increase oxygen flow to the heart, aids in arterial flow, reduces blood pressure and stress, and gets your heart rate going.",
+        "img": "https://www.henryford.com/-/media/henry-ford-blog/images/mobile-interior-banner-images/2016/08/gardeningmobile.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "3",
+        "name": "Dancing Exercise",
+        "time": 29,
+        "description": "Is dance a good form of exercise? Dancing is a whole-body workout that's actually fun. It's good for your heart, it makes you stronger, and it can help with balance and coordination. A 30-minute dance class burns between 130 and 250 calories, about the same as jogging.",
+        "img": "https://i.ytimg.com/vi/Rj2IubFfEqY/maxresdefault.jpg",
+        "quantity": 0
+    },
+    {
+        "id": "4",
+        "name": "Biking Exercise",
+        "time": 39,
+        "description": "Biking is a top-notch cardio workout. You'll burn about 400 calories an hour. Plus it strengthens your lower body, including your legs, hips, and glutes. If you want a workout that's gentle on your back, hips, knees, and ankles, this is a great choice ",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiOF58I1yg4ooaaAVuwtLukO_3wBaHz0f4xQ&usqp=CAU",
+        "quantity": 0
+    },
+    {
+        "id": "5",
+        "name": "Jogging workout",
+        "time": 43,
+        "description": "How long should I jog for a good workout? To achieve or maintain a basic level of physical fitness, jog 30 minutes per day for five days per week for a total of 150 minutes per week. For better physical fitness, increase your jogging time to 60 minutes per day.",
+        "img": "https://cdn.cdnparenting.com/articles/2019/01/21120025/1195922569-H.webp",
+        "quantity": 0
+    },
+    {
+        "id": "6",
+        "name": "Outdoor Games",
+        "time": 26,
+        "description": "Outdoor games are an excellent form of exercise for kids. It helps to strengthen their muscles and joints, increases flexibility, and makes them more agile. Immunity is also improved.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRXgxdkevTm4A42jpCJZeUzGeh1D-IYJYw_A&usqp=CAU",
+        "quantity": 0
+    }
+]

@@ -35,12 +35,8 @@
     padding: 10px;
     width: 100%;
     border: none;
-    background-color: blue;
+    background-color: navy;
     border-radius: 10px;
-}
-
-.btn-completed:hover {
-    padding: 12px;
-    background-color: rgb(5, 143, 95);
     cursor: pointer;
+    color: white;
 }

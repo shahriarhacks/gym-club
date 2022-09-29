@@ -1,6 +1,6 @@
-.break-btn button:hover {
+.break-btn button {
     border: none;
-    background-color: rgb(72, 62, 255);
+    background-color: turquoise;
     padding: 5px;
     cursor: pointer;
     border-radius: 75%;

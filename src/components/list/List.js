@@ -5,7 +5,7 @@ import { useState } from 'react';
 import BreakTime from '../breakTime/BreakTime';
 import './List.css'
 const List = ({ list }) => {
-    const [bTime, setBTime] = useState([]);
+    const [ucTime, setTime] = useState([]);
     let time = 0;
     let quantity = 0;
     for (const singleList of list) {
@@ -16,7 +16,7 @@ const List = ({ list }) => {
     const breakHandel = (breakTime) => {
         localStorage.setItem("breakTime", JSON.stringify(breakTime))
 
-        setBTime(breakTime)
+        setTime(breakTime)
     }
     let breakTimeC = '';
     const getBreak = localStorage.getItem('breakTime')
@@ -28,20 +28,20 @@ const List = ({ list }) => {
     return (
         <div className='cart-list'>
             <div className="auth-info">
-                <h3>SHAHRIAR AHMED</h3>
-                <p><small>From: Rangpur, Bangladesh</small></p>
+                <h4>Nushrat Shahriar Jahan</h4>
+                <p><small>From: Chandpur, Bangladesh</small></p>
             </div>
             <div className="identify">
                 <div className="single-idenity">
-                    <h3>55<small>kg</small></h3>
+                    <h3>60<small>kg</small></h3>
                     <h4>Weight</h4>
                 </div>
                 <div className="single-idenity">
-                    <h3>5.10</h3>
+                    <h3>5.01</h3>
                     <h4>Height</h4>
                 </div>
                 <div className="single-idenity">
-                    <h3>19<small>yrs</small></h3>
+                    <h3>18<small>yrs</small></h3>
                     <h4>Age</h4>
                 </div>
             </div>

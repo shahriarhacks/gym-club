@@ -4,9 +4,6 @@
     border-radius: 15px;
 }
 
-.card:hover {
-    box-shadow: 0 0 10px;
-}
 
 .card-img {
     width: 100%;
@@ -33,15 +30,12 @@
     border-radius: 8px;
     position: absolute;
     bottom: 0;
-    background-image: linear-gradient(rgb(74, 160, 196), rgb(87, 96, 226));
     color: white;
+    background-color: pink;
+    cursor: pointer;
 }
 
 .list-btn:hover {
-    padding: 12px 0;
-    border-radius: 10px;
-    cursor: pointer;
-    background-image: linear-gradient(rgb(1, 255, 52), rgb(89, 255, 0));
-    font-weight: 700;
     color: #000;
+    background-color: orange;
 }
